@@ -4,14 +4,12 @@ function solution(num, k) {
     num = String(num).split('');
     let idx = num.indexOf(String(k));
     
-    console.log(idx);
-    
-    if(idx === -1) {
-        answer = idx;
-    } else {
-        idx += 1;
-        answer = idx;
-    }
+    idx === -1 ? answer = idx : answer = idx + 1;
+    // if(idx === -1) {
+    //     answer = idx;
+    // } else {
+    //     answer = idx + 1;
+    // }
     return answer;
 }
 
