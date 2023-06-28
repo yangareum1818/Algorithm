@@ -2,7 +2,7 @@ function solution(t, p) {
     var answer = 0;
     let pLen = p.length;
     for(let i = 0; i < t.length; i++) {
-        let tt = t.slice(i, pLen++);
+        let tt = t.slice(i, i+pLen);
         if (tt.length === p.length) {
             if (tt <= p) {
                 answer += 1;
