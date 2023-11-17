@@ -5,3 +5,8 @@ function solution(n, k) {
     }
     return answer;
 }
+
+// 다른사람 문제 풀이.
+// for(let i = k ; i <= n; i+=k){
+//     answer.push(i)
+// }
