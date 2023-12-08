@@ -15,3 +15,6 @@ function solution(a, b) {
 
 // 문자열 a + b, b + a를 했을 때, 숫자형으로 변경된 값 중 더 큰 값을 return
 // but, a + b, b + a의 값이 같을경우, a+b 값으로 return
+
+// 다른사람풀이 (코드를 간결하게 만드는 습관을 가져보자.)
+//  return Math.max(Number(`${a}${b}`), Number(`${b}${a}`))
